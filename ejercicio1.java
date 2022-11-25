@@ -11,7 +11,6 @@
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un numero y te dire si es capicua");
         int numero=sc.nextInt();
-        System.out.println(matematicas.Varias.voltea(numero));
 
         if(matematicas.Varias.esCapicua(numero)){
             System.out.println(numero+" es capicua");
