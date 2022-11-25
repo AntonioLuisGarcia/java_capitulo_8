@@ -18,8 +18,6 @@ public class ejercicio2{
        }else{
            System.out.println(numero+" no es primo");
        }
-
        sc.close();
    }
-
 }
