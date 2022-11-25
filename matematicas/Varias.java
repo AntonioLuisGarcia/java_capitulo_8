@@ -22,18 +22,13 @@ public class Varias{
 
     public static boolean esPrimo(int x){
 
-        boolean primo=true;
         for(int i=2;i<x;i++){
             if(x%i==0){
-                primo=false;
+                return false;
             }
         }
+        return true;
 
-        if(primo){
-            return true;
-        }else{
-            return false;
-        }
     }
 
 
