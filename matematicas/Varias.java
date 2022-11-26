@@ -31,5 +31,20 @@ public class Varias{
 
     }
 
+    public static int siguientePrimo(int x){
+
+        int numero=x+1;
+        boolean salir=true;
+        while(salir){
+            
+            if(esPrimo(numero)){
+                salir=false;
+            }
+            numero++;
+        }
+        return numero-1;
+
+    }
+
 
 }
