@@ -1,3 +1,10 @@
+/*
+ *3. siguientePrimo: Devuelve el menor primo que es mayor al número que
+ *se pasa como parámetro.
+ * 
+ * @author Antonio Luis Garcia
+ */
+
 import java.util.Scanner;
 
 public class ejercicio3{
