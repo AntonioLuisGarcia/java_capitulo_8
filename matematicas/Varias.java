@@ -54,5 +54,18 @@ public class Varias{
 
     }
 
+    public static int digitos(int x){
+
+        int longitud=0;
+
+        while(x>0){
+            x/=10;
+            longitud++;
+        }
+        
+        return longitud;
+
+    }
+
 
 }
