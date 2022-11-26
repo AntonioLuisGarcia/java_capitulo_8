@@ -28,7 +28,6 @@ public class Varias{
             }
         }
         return true;
-
     }
 
     public static int siguientePrimo(int x){
@@ -43,6 +42,15 @@ public class Varias{
             numero++;
         }
         return numero-1;
+    }
+
+    public static long potencia(int base, int exponente){
+
+        long total=1;
+        for(int i=1;i<=exponente;i++){
+            total=total*base;
+        }
+        return total;
 
     }
 
