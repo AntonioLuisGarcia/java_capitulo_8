@@ -84,7 +84,7 @@ public class Varias{
         return digito;
     }
 
-     /* 
+     
 
     public static void posicionDeDigito(int numero, int digito){
         numero=voltea(numero);
@@ -110,6 +110,8 @@ public class Varias{
             System.out.println("La posicion es la "+(copia-contador));
         }
     }
+
+    /* 
 
     public static int quitaPorDetras(int numero, int digitos){
 
