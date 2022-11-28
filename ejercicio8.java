@@ -3,7 +3,7 @@
  *dentro de un número entero. Si no se encuentra, devuelve -1.
  * 
  * @author Antonio Luis Garcia
- 
+ */
 
 import java.util.Scanner;
 public class ejercicio8{
@@ -17,4 +17,3 @@ public class ejercicio8{
         sc.close();
    }
 }
-*/
