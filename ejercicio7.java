@@ -3,7 +3,7 @@
  *Se empieza contando por el 0 y de izquierda a derecha.
  *
  * @author Antonio Luis Garcia
- 
+ */
 
 import java.util.Scanner;
 public class ejercicio7{
@@ -17,4 +17,3 @@ public class ejercicio7{
         sc.close();
    }
 }
-*/
