@@ -68,7 +68,7 @@ public class Varias{
     }
 
 
-    /* 
+   
 
     public static int digitoN(int numero, int posicion){
     
@@ -83,6 +83,8 @@ public class Varias{
         }
         return digito;
     }
+
+     /* 
 
     public static void posicionDeDigito(int numero, int digito){
         numero=voltea(numero);
