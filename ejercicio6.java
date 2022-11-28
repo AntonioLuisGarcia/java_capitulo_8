@@ -14,4 +14,5 @@ public class ejercicio6{
         System.out.println(matematicas.Varias.voltea(numero));
         sc.close();
    }
+   
 }
