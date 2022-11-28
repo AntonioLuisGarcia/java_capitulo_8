@@ -111,7 +111,7 @@ public class Varias{
         }
     }
 
-    /* 
+  
 
     public static int quitaPorDetras(int numero, int digitos){
 
@@ -122,6 +122,8 @@ public class Varias{
         return numero;
 
     }
+
+    /* 
 
     public static int quitarPorDelante(int numero, int digitos){
 
