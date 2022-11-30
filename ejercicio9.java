@@ -3,6 +3,7 @@
  *derecha).
  * 
  * @author Antonio Luis Garcia
+ */
  
 
 import java.util.Scanner;
@@ -17,4 +18,3 @@ public class ejercicio9{
         sc.close();
    }
 }
-*/
