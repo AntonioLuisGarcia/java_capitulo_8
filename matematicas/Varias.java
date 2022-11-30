@@ -136,13 +136,13 @@ public class Varias{
         return numero;
     }
 
-    /* 
-
     public static int pegaPorDetras(int numero,int digito){
         numero=numero*10+digito;
 
         return numero;
     }
+
+    /* 
 
     public static int pegaPorDelante(int numero,int digito){
 
