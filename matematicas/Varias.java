@@ -142,17 +142,17 @@ public class Varias{
         return numero;
     }
 
-    /* 
-
+    
     public static int pegaPorDelante(int numero,int digito){
-
+        
         numero=voltea(numero);
         numero=pegaPorDetras(numero, digito);
         numero=voltea(numero);
-
+        
         return numero;
     }   
     
+    /* 
     public static int juntaNumeros(int numero1, int numero2){
         int digitos=digitos(numero2);
         return numero1*(int)(Math.pow(10, digitos))+numero2;
