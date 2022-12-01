@@ -2,6 +2,7 @@
  * 10. quitaPorDelante: Le quita a un número n dígitos por delante (por la izquierda).
  *
  * @author Antonio Luis Garcia
+ */
  
 
 import java.util.Scanner;
@@ -16,4 +17,3 @@ public class ejercicio10{
         sc.close();
    }
 }
-*/
