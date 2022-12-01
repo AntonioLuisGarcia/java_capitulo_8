@@ -1,7 +1,8 @@
 /*
- *11. pegaPorDetras: Añade un dígito a un número por detrás.
- *
- *@author Antonio Luis Garcia 
+*11. pegaPorDetras: Añade un dígito a un número por detrás.
+*
+*@author Antonio Luis Garcia 
+*/
  
 
 import java.util.Scanner;
@@ -16,4 +17,3 @@ public class ejercicio11{
         sc.close();
    }
 }
-*/
