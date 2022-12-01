@@ -3,7 +3,7 @@
  *
  * @author Antonio Luis Garcia
  */
-
+import matematicas.Varias;
 import java.util.Scanner;
 public class ejercicio5{
    public static void main(String[] args){
@@ -11,7 +11,7 @@ public class ejercicio5{
        System.out.println("Introduce un numero y te dire cuanntos digitos tiene");
        int numero=sc.nextInt();
 
-        System.out.println("Tiene "+matematicas.Varias.digitos(numero)+" digitos");
+        System.out.println("Tiene "+Varias.digitos(numero)+" digitos");
         sc.close();
    }
 }
