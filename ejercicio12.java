@@ -2,6 +2,7 @@
  *12. pegaPorDelante: Añade un dígito a un número por delante.
  *
  *@author Antonio Luis Garcia 
+ */
  
 
 import java.util.Scanner;
@@ -16,4 +17,3 @@ public class ejercicio12{
         sc.close();
    }
 }
-*/
