@@ -73,7 +73,7 @@ public class Varias{
     public static int digitoN(int numero, int posicion){
     
         numero= voltea(numero);
-        int digito=0;
+        int digito=1;
 
         for(int i=0;i<=posicion;i++){
             numero/=10;
@@ -171,9 +171,10 @@ public class Varias{
     public static int decimalBinario(int numero){
         int contador=0;
         int decimal=0;
-        while(numero>1){
+        while(numero>0){
             decimal=decimal+((numero%2)*(int)potencia(10, contador));
-            numero/=10;
+            numero/=2;
+            contador++;
         }
         return decimal;
     }
