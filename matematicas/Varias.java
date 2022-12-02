@@ -167,4 +167,15 @@ public class Varias{
         return numero;
     }
 
+
+    public static int decimalBinario(int numero){
+        int contador=0;
+        int decimal=0;
+        while(numero>1){
+            decimal=decimal+((numero%2)*(int)potencia(10, contador));
+            numero/=10;
+        }
+        return decimal;
+    }
+
 }
