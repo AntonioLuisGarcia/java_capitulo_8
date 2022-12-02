@@ -158,9 +158,11 @@ public class Varias{
 
     public static int trozoDeNumero(int numero, int principio,int fin){
 
+        int ultimo=digitos(numero)-fin;
+
         numero=quitarPorDelante(numero,principio);
 
-        numero=quitaPorDetras(numero, fin);
+        numero=quitaPorDetras(numero, ultimo);
 
         return numero;
     }

@@ -14,9 +14,9 @@ public class ejercicio13{
        System.out.println("Por donde quieres cortar el numero \nLa primera posicion");
        int principio=sc.nextInt();
        System.out.println("La ultima posicion");
-       int utlimo=sc.nextInt();
+       int ultimo=sc.nextInt();
        
-        System.out.println("Tiene "+Varias.digitos(numero)+" digitos");
+        System.out.println("El numero quedaria asi: "+Varias.trozoDeNumero(numero,principio,ultimo));
         sc.close();
    }
 }
