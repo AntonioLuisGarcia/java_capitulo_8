@@ -124,7 +124,6 @@ public class Varias{
     }
 
     
-
     public static int quitarPorDelante(int numero, int digitos){
 
         numero=voltea(numero);
@@ -155,6 +154,15 @@ public class Varias{
     public static int juntaNumeros(int numero1, int numero2){
         int digitos=digitos(numero2);
         return numero1*(int)(Math.pow(10, digitos))+numero2;
+    }
+
+    public static int trozoDeNumero(int numero, int principio,int fin){
+
+        numero=quitarPorDelante(numero,principio);
+
+        numero=quitaPorDetras(numero, fin);
+
+        return numero;
     }
 
 }
