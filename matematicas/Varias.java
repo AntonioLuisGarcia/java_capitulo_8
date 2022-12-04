@@ -179,4 +179,16 @@ public class Varias{
         return decimal;
     }
 
+    public static int binarioDecimal(int numero){
+        numero=voltea(numero);
+        int longitud=digitos(numero);
+        int potencia=0;
+        int decimal=0;
+        for(int i=1;i<=longitud;i++){
+            decimal=decimal+((numero%10)*(int)potencia(2, potencia));
+            potencia++;
+        }
+        return decimal;
+    }
+
 }
