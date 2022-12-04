@@ -3,6 +3,7 @@
  *Escribe un programa que pase de binario a decimal.
  *
  * @author Antonio Luis Garcia
+ */
  import matematicas.Varias;
  import java.util.Scanner;
  public class ejercicio17{
@@ -15,4 +16,3 @@
         sc.close();
       }
    }
-   */
