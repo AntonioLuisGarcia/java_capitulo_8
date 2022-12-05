@@ -17,6 +17,8 @@ public class Varias{
         return volteado;
     }
 
+
+
     public static boolean esCapicua(long x){
         if(voltea(x)==x){
             return true;
@@ -28,6 +30,8 @@ public class Varias{
     public static boolean esCapicua(int x){
       return esCapicua((long)x);
     }
+
+
 
     public static boolean esPrimo(int x){
         return esPrimo((long)x);
@@ -43,6 +47,8 @@ public class Varias{
         return true;
     }
 
+
+
     public static int siguientePrimo(int x){
 
         int numero=x+1;
@@ -56,6 +62,8 @@ public class Varias{
         }
         return numero-1;
     }
+    
+
 
     public static long potencia(int base, int exponente){
 
@@ -67,7 +75,14 @@ public class Varias{
 
     }
 
+
+
     public static int digitos(int x){
+
+        return (int)digitos((long)x);
+    }
+
+    public static long digitos(long x){
 
         int longitud=0;
 
@@ -82,7 +97,6 @@ public class Varias{
 
 
    
-
     public static int digitoN(int numero, int posicion){
     
         numero= voltea(numero);
