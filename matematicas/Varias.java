@@ -3,7 +3,12 @@ package matematicas;
 public class Varias{
 
     public static int voltea(int x){
-        int volteado=0;
+
+        return (int)voltea((long)x);
+    }
+
+    public static long voltea(long x){
+        long volteado=0;
         while(x>0){
             volteado=(volteado*10)+x%10;
             x/=10;
