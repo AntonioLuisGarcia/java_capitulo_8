@@ -30,6 +30,10 @@ public class Varias{
     }
 
     public static boolean esPrimo(int x){
+        return esPrimo((long)x);
+    }
+
+    public static boolean esPrimo(long x){
 
         for(int i=2;i<x;i++){
             if(x%i==0){
