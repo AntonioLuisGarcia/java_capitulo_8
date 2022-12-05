@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ejercicio5{
    public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
-       System.out.println("Introduce un numero y te dire cuanntos digitos tiene");
+       System.out.println("Introduce un numero y te dire cuantos digitos tiene");
        int numero=sc.nextInt();
 
         System.out.println("Tiene "+Varias.digitos(numero)+" digitos");
