@@ -48,19 +48,15 @@ public class Varias{
     }
 
 
+    public static long siguientePrimo(int x){
 
-    public static int siguientePrimo(int x){
+        return siguientePrimo((long)x);
+    }
 
-        int numero=x+1;
-        boolean salir=true;
-        while(salir){
-            
-            if(esPrimo(numero)){
-                salir=false;
-            }
-            numero++;
-        }
-        return numero-1;
+    public static long siguientePrimo(long x){
+
+        while (!esPrimo(++x)){}
+        return x;
     }
     
 
