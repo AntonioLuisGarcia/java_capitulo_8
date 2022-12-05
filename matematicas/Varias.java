@@ -17,12 +17,16 @@ public class Varias{
         return volteado;
     }
 
-    public static boolean esCapicua(int x){
+    public static boolean esCapicua(long x){
         if(voltea(x)==x){
             return true;
         }else{
             return false;
         }
+    }
+
+    public static boolean esCapicua(int x){
+      return esCapicua((long)x);
     }
 
     public static boolean esPrimo(int x){
