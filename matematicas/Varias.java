@@ -48,6 +48,7 @@ public class Varias{
     }
 
 
+
     public static long siguientePrimo(int x){
 
         return siguientePrimo((long)x);
@@ -61,9 +62,15 @@ public class Varias{
     
 
 
-    public static long potencia(int base, int exponente){
+    public static double potencia(long base, int exponente){
 
-        long total=1;
+        if(exponente==0){
+            return 1;
+        }
+        if(exponente<0){
+            return 1/potencia(base,-exponente);
+        }
+        double total=1;
         for(int i=1;i<=exponente;i++){
             total=total*base;
         }
