@@ -109,15 +109,12 @@ public class Varias{
 
         return (int)(voltea(numero)/(long)(potencia(10, posicion)))%10;
     }
-    /* 
-    //otro commit de añadir long commit totales 4 aqui
+    
     public static int digitoN(int numero, int posicion){
     
    
         return digitoN((long)numero, posicion);
     }
-
-    */
 
      
 
