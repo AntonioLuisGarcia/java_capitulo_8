@@ -106,12 +106,10 @@ public class Varias{
         if(posicion<0 || posicion>digitos(numero)){
             return -1;
         }
-
         return (int)(voltea(numero)/(long)(potencia(10, posicion)))%10;
     }
     
     public static int digitoN(int numero, int posicion){
-    
    
         return digitoN((long)numero, posicion);
     }
