@@ -100,9 +100,7 @@ public class Varias{
         return longitud;
     }
     
-    /* 
     
-    //añadimos long a numero, commit tmb de optimizacion
     public static int digitoN(long numero, int posicion){
     
         if(posicion<0 || posicion>digitos(numero)){
@@ -111,6 +109,7 @@ public class Varias{
 
         return (int)(voltea(numero)/(long)(potencia(10, posicion)))%10;
     }
+    /* 
     //otro commit de añadir long commit totales 4 aqui
     public static int digitoN(int numero, int posicion){
     
