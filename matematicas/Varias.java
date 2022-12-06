@@ -79,40 +79,46 @@ public class Varias{
     }
 
 
-
+    //commit de digitos actualizado
     public static int digitos(int x){
 
         return (int)digitos((long)x);
     }
-
+    
     public static long digitos(long x){
-
+        
+        if(x==0){
+            return 1;
+        }
+        
         int longitud=0;
-
         while(x>0){
             x/=10;
             longitud++;
         }
 
         return longitud;
-
     }
+    
+    /* 
+    
+    //añadimos long a numero, commit tmb de optimizacion
+    public static int digitoN(long numero, int posicion){
+    
+        if(posicion<0 || posicion>digitos(numero)){
+            return -1;
+        }
 
-
-   
+        return (int)(voltea(numero)/(long)(potencia(10, posicion)))%10;
+    }
+    //otro commit de añadir long commit totales 4 aqui
     public static int digitoN(int numero, int posicion){
     
-        numero= voltea(numero);
-        int digito=1;
-
-        for(int i=0;i<=posicion;i++){
-            numero/=10;
-            if(i==posicion-1){
-                digito=numero%10;
-            }
-        }
-        return digito;
+   
+        return digitoN((long)numero, posicion);
     }
+
+    */
 
      
 
