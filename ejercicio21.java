@@ -16,7 +16,6 @@ public class ejercicio21 {
         int maximo=sc.nextInt();
         System.out.println("Que valor minimo");
         int minimo=sc.nextInt();
-
         int[] array= Array.generaArrayInt(longitud, minimo, maximo);
         Array.muestraArray(array);  
         System.out.print("Te dire cual es el menor: "+ Array.minimoArrayInt(array));   
