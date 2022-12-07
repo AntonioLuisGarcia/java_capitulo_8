@@ -57,18 +57,18 @@ public class Array{
         return numeroMaximo;
     }
     
-    /*
     public static int mediaArrayInt(int array[]){
-
+        
         int total=0;
-
+        
         for(int i=0;i<array.length;i++){
             total+=array[i];
         }
-
+        
         return total/array.length;
     }
-
+    
+    /*
     public static boolean estaEnArrayInt(int array[], int numero){
 
         for(int i=0;i<array.length;i++){
