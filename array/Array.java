@@ -30,22 +30,22 @@ public class Array{
         
     }
 
-    /*
-
+    
     public static int minimoArrayInt(int array[]){
-
+        
         int numeroMinimo=Integer.MAX_VALUE;
-
+        
         for(int i=0;i<array.length;i++){
             if(numeroMinimo>array[i]){
                 numeroMinimo=array[i];
             }
         }
-
+        
         return numeroMinimo;
         
     }
-
+    
+    /*
     public static int maximoArrayInt(int array[]){
 
         int numeroMaximo=Integer.MIN_VALUE;
