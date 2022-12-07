@@ -1,13 +1,12 @@
 /*
- * 1. generaArrayInt: Genera un array de tamaño n con números aleatorios
- *cuyo intervalo (mínimo y máximo) se indica como parámetro.
+ * 4. mediaArrayInt: Devuelve la media del array que se pasa como parámetro.
  * 
  * @author Antonio Luis Garcia
  */
 
 import array.Array;
 import java.util.Scanner;
-public class ejercicio20 {
+public class ejercicio23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,7 +18,9 @@ public class ejercicio20 {
         int minimo=sc.nextInt();
 
         int[] array= Array.generaArrayInt(longitud, minimo, maximo);
-        Array.muestraArray(array);        
+        Array.muestraArray(array);  
+        System.out.print("La media es: "+ Array.mediaArrayInt(array));   
+
         sc.close();
     }
 }

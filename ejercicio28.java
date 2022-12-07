@@ -1,13 +1,13 @@
 /*
- * 1. generaArrayInt: Genera un array de tamaño n con números aleatorios
- *cuyo intervalo (mínimo y máximo) se indica como parámetro.
+ * 9. rotaIzquierdaArrayInt: Rota n posiciones a la izquierda los números de
+ *un array
  * 
  * @author Antonio Luis Garcia
  */
 
 import array.Array;
 import java.util.Scanner;
-public class ejercicio20 {
+public class ejercicio28 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,9 +17,13 @@ public class ejercicio20 {
         int maximo=sc.nextInt();
         System.out.println("Que valor minimo");
         int minimo=sc.nextInt();
-
         int[] array= Array.generaArrayInt(longitud, minimo, maximo);
-        Array.muestraArray(array);        
+        Array.muestraArray(array);
+        System.out.println("Cuantas posiciones rotas");
+        int rotarIzquierda=sc.nextInt();
+        Array.muestraArray(Array.rotaIzquierdaArrayInt(array,rotarIzquierda));
+        
+
         sc.close();
     }
 }

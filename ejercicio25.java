@@ -1,13 +1,13 @@
 /*
- * 1. generaArrayInt: Genera un array de tamaño n con números aleatorios
- *cuyo intervalo (mínimo y máximo) se indica como parámetro.
+ * 6. posicionEnArray: Busca un número en un array y devuelve la posición
+ *(el índice) en la que se encuentra.
  * 
  * @author Antonio Luis Garcia
  */
 
 import array.Array;
 import java.util.Scanner;
-public class ejercicio20 {
+public class ejercicio25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,9 +17,10 @@ public class ejercicio20 {
         int maximo=sc.nextInt();
         System.out.println("Que valor minimo");
         int minimo=sc.nextInt();
-
         int[] array= Array.generaArrayInt(longitud, minimo, maximo);
-        Array.muestraArray(array);        
+        System.out.println("¿Que posicion de numero quieres saber?");
+        int numero=sc.nextInt(); 
+        System.out.println(numero+" esta en la posicion: "+Array.posicionEnArray(array, numero));
         sc.close();
     }
 }

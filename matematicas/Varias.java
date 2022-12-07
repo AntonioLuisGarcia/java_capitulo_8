@@ -209,14 +209,14 @@ public class Varias{
         return decimal;
     }
 
-    public static int binarioDecimal(int numero){
-        numero=voltea(numero);
-        int longitud=digitos(numero);
-        int potencia=0;
+    public static int binarioDecimal(int num) {
+        int longitud=digitos(num);
+        int posicion=0;
         int decimal=0;
-        for(int i=1;i<=longitud;i++){
-            decimal=decimal+((numero%10)*(int)potencia(2, potencia));
-            potencia++;
+        for(int i=1;i <= longitud;i++){
+            decimal=decimal+((num%10)*(int)potencia(2, posicion));
+            posicion++;
+            num/=10;
         }
         return decimal;
     }
