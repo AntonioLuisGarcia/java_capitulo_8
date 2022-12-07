@@ -45,11 +45,10 @@ public class Array{
         
     }
     
-    /*
     public static int maximoArrayInt(int array[]){
-
+        
         int numeroMaximo=Integer.MIN_VALUE;
-
+        
         for(int i=0;i<array.length;i++){
             if(numeroMaximo<array[i]){
                 numeroMaximo=array[i];
@@ -57,7 +56,8 @@ public class Array{
         }
         return numeroMaximo;
     }
-
+    
+    /*
     public static int mediaArrayInt(int array[]){
 
         int total=0;
