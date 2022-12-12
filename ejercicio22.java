@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class ejercicio22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Di cuantos numeros quieres en el array");
         int longitud=sc.nextInt();
         System.out.println("Que valor maximo");
