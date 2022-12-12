@@ -2,6 +2,7 @@
  *14. juntaNumeros: Pega dos números para formar uno.
  *
  *@author Antonio Luis Garcia 
+ */
  
 
 import java.util.Scanner;
@@ -16,4 +17,3 @@ public class ejercicio14{
         sc.close();
    }
 }
-*/
