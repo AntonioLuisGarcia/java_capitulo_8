@@ -78,8 +78,6 @@ public class Varias{
 
     }
 
-
-    //commit de digitos actualizado
     public static int digitos(int x){
 
         return (int)digitos((long)x);

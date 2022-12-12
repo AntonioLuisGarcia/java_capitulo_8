@@ -68,7 +68,7 @@ public class Array{
         return total/array.length;
     }
     
-    /*
+    
     public static boolean estaEnArrayInt(int array[], int numero){
 
         for(int i=0;i<array.length;i++){
@@ -130,5 +130,5 @@ public class Array{
         return auxiliar;
     }
 
-     */
+    
 }
