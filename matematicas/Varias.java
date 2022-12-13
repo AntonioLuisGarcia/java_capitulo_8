@@ -228,7 +228,20 @@ public class Varias{
         for(int i=1;i<=x;i++){
             total+=y;
         }
-        
+
+        return total;
+    }
+
+    public static int division(int x,int y){
+        return (int)division((long)x,(long)y);
+    }
+
+    public static long division(long x, long y) {
+        long total=0;
+        while(x>y){
+            total++;
+            x-=y;
+        }
         return total;
     }
 
