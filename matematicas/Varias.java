@@ -225,7 +225,7 @@ public class Varias{
 
     public static long multiplicacion(long x, long y){
         long total=0;
-        for(int i=1;i<x;i++){
+        for(int i=1;i<=x;i++){
             total+=y;
         }
         return total;
