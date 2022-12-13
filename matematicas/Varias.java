@@ -245,4 +245,20 @@ public class Varias{
         return total;
     }
 
+    public static long factorial(long x) {
+        if(x==0)
+            return 1;
+        long factorial = 1;
+        while(x>0){
+            factorial *= multiplicacion(x, factorial);
+            x--;
+        }
+        return factorial;
+    }
+
+    public static int factorial(int x) {
+        
+        return (int)factorial((long)x);
+    }
+
 }
