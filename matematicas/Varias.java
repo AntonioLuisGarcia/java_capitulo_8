@@ -238,7 +238,7 @@ public class Varias{
 
     public static long division(long x, long y) {
         long total=0;
-        while(x>y){
+        while(x>=y){
             total++;
             x-=y;
         }
