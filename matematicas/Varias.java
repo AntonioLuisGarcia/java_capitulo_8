@@ -228,6 +228,7 @@ public class Varias{
         for(int i=1;i<=x;i++){
             total+=y;
         }
+        
         return total;
     }
 
