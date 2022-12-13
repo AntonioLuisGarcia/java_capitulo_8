@@ -219,4 +219,16 @@ public class Varias{
         return decimal;
     }
 
+    public static int multiplicacion(int x,int y){
+        return (int)multiplicacion((long)x,(long) y);
+    }
+
+    public static long multiplicacion(long x, long y){
+        long total=0;
+        for(int i=1;i<x;i++){
+            total+=y;
+        }
+        return total;
+    }
+
 }
