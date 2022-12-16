@@ -27,4 +27,18 @@ public class Bidimensional {
         }
     }
 
+    
+    public static void  filaDeArrayBiInt(int[][] array,int filaDeseada) {
+
+
+        for(int fila=0;fila<array.length;fila++){
+            for(int columna=0;columna<array[0].length;columna++){
+
+                if(fila==filaDeseada){
+                    System.out.printf("%4s ",array[fila][columna]);
+                }
+            }
+        }
+    }
+
 }
