@@ -102,19 +102,22 @@ public class Array{
         return auxiliar;
     }
 
-    public static int[] rotaIzquierdaArrayInt(int array[],int numeroIzquierda){
-
-        int[] auxiliar=array.clone();
-
-        for(int i=0;i<array.length;i++){
-            if(i+numeroIzquierda>=array.length){
-                auxiliar[i]=array[i+numeroIzquierda-array.length+1];
-            }else{
-                auxiliar[i]=array[i+numeroIzquierda];
+    public static int[] rotaIzquierdaArrayInt(int[] x, int n) {
+    
+        int[] a = x.clone(); // clona en a el contenido de x
+        int i;
+        int aux;
+        
+        while (n-- > 0) {
+            aux = a[0];
+            for(i = 0; i < a.length - 1; i++) {
+                a[i] = a[i + 1];
             }
+            a[a.length - 1] = aux;
         }
-        return auxiliar;
-    }
+          
+        return a;
+      }
 
     public static int[] rotaDerechaArrayInt(int[] x, int n) {
     
