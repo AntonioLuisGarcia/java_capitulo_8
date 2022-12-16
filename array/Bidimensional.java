@@ -6,9 +6,9 @@ public class Bidimensional {
 
         int[][] array=new int[i][j];
 
-        for(int fila=0;fila<i;i++){
-            for(int columna=0;columna<j;j++){
-                array[i][j]=(int)(Math.random()*(max-min+1)+min);
+        for(int fila=0;fila<i;fila++){
+            for(int columna=0;columna<j;columna++){
+                array[fila][columna]=(int)(Math.random()*(max-min+1)+min);
             }
         }
 
@@ -16,13 +16,12 @@ public class Bidimensional {
     }
 
 
-    public static void  muestraArrayBiInt(int i,int j,int min,int max) {
+    public static void  muestraArrayBiInt(int[][] array) {
 
-        int[][] array=new int[i][j];
 
-        for(int fila=0;fila<i;i++){
-            for(int columna=0;columna<j;j++){
-                System.out.print(array[i][j]);
+        for(int fila=0;fila<array.length;fila++){
+            for(int columna=0;columna<array[0].length;columna++){
+                System.out.printf("%4s ",array[fila][columna]);
             }
             System.out.println();
         }
