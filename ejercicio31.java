@@ -1,6 +1,6 @@
 /*
- * 2. filaDeArrayBiInt: Devuelve la fila i-ésima del array que se pasa como
- * parámetro.
+ * 3. columnaDeArrayBiInt: Devuelve la columna j-ésima del array que se
+ * pasa como parámetro.
  * 
  * @author Antonio Luis Garcia
 
@@ -8,7 +8,7 @@
  import java.util.Scanner;
  import array.Bidimensional;
  import array.Array;
- public class ejercicio30 {
+ public class ejercicio31 {
 
     public static void main(String[] args) {
         
@@ -24,9 +24,9 @@
         System.out.print("Maximo: \n");
         int maximo=sc.nextInt();
         System.out.print("¿Que fila quiere ver? \n");
-        int filaDeseada=sc.nextInt();
+        int columnaDeseada=sc.nextInt();
 
-        Array.muestraArray(Bidimensional.filaDeArrayBiInt(Bidimensional.generaArrayBiInt(filas, columnas, minimo, maximo), filaDeseada));
+        Array.muestraArray(Bidimensional.columnaDeArrayBiInt(Bidimensional.generaArrayBiInt(filas, columnas, minimo, maximo), columnaDeseada));
 
         sc.close();
     }

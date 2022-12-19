@@ -114,7 +114,7 @@ public class Varias{
 
      
 
-    public static void posicionDeDigito(int numero, int digito){
+    public static int posicionDeDigito(int numero, int digito){
         numero=voltea(numero);
         int contador=digitos(numero);
         int copia=contador;
@@ -133,9 +133,9 @@ public class Varias{
         }
 
         if(contador==0){
-            System.out.println("-1");
+            return -1;
         }else{
-            System.out.println("La posicion es la "+(copia-contador));
+            return copia-contador;
         }
     }
 

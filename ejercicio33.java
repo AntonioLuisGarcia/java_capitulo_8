@@ -1,14 +1,13 @@
 /*
- * 2. filaDeArrayBiInt: Devuelve la fila i-ésima del array que se pasa como
- * parámetro.
+ * 5. esPuntoDeSilla: Dice si un número es o no punto de silla, es decir,
+ * mínimo en su fila y máximo en su columna.
  * 
  * @author Antonio Luis Garcia
 
 
  import java.util.Scanner;
  import array.Bidimensional;
- import array.Array;
- public class ejercicio30 {
+ public class ejercicio33 {
 
     public static void main(String[] args) {
         
@@ -23,13 +22,20 @@
         int minimo=sc.nextInt();
         System.out.print("Maximo: \n");
         int maximo=sc.nextInt();
-        System.out.print("¿Que fila quiere ver? \n");
-        int filaDeseada=sc.nextInt();
+        System.out.print("¿De que fila quieres? \n");
+        int fil=sc.nextInt();
+        System.out.print("¿De que columna quieres? \n");
+        int col=sc.nextInt();
 
-        Array.muestraArray(Bidimensional.filaDeArrayBiInt(Bidimensional.generaArrayBiInt(filas, columnas, minimo, maximo), filaDeseada));
+        if(Bidimensional.esPuntoDeSilla(Bidimensional.generaArrayBiInt(filas, columnas, minimo, maximo), fil, col)){
+            System.out.println("es punto de silla");
+        }else{
+            System.out.println("no es punto de silla");
+        }
 
         sc.close();
     }
  
  }
+
   */
