@@ -5,6 +5,7 @@
  * devuelve el array {-1, -1}.
  * 
  * @author Antonio Luis Garcia
+ */
  
  import java.util.Scanner;
  import array.Bidimensional;
@@ -35,4 +36,3 @@
     }
     
 }
-*/
