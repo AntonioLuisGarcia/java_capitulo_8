@@ -46,8 +46,7 @@ public class Bidimensional {
         return fil;
     }
 
-    /* 
-
+    
     public static int[]  columnaDeArrayBiInt(int[][] array,int columnaDeseada) {
 
         int[] col=new int[array[0].length];
@@ -62,10 +61,11 @@ public class Bidimensional {
                 }
             }
         }
-
+        
         return col;
     }
-
+    
+    /* 
     public static int[]  coordenadasEnArrayBiInt(int[][] array,int numero) {
 
         for(int fila=0;fila<array.length;fila++){
