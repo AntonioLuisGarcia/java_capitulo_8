@@ -82,15 +82,16 @@ public class Bidimensional {
         return coordenada;
     }
     
-    /* 
     public static boolean esPuntoDeSilla(int[][] array, int i, int j) {
         int[] fil= filaDeArrayBiInt(array, i);
         int[] col= columnaDeArrayBiInt(array, j);
-
+        
         return((Array.minimoArrayInt(fil)==array[i][j]) && (Array.maximoArrayInt(col)==array[i][j]));
         
     }
-
+    
+    
+    /* 
     public static int[] diagonal(int[][] array, int i, int j,String eleccion) {
 
         int numeros=0;
