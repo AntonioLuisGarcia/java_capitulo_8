@@ -65,9 +65,8 @@ public class Bidimensional {
         return col;
     }
     
-    /* 
     public static int[]  coordenadasEnArrayBiInt(int[][] array,int numero) {
-
+        
         for(int fila=0;fila<array.length;fila++){
             for(int columna=0;columna<array[0].length;columna++){
                 if(array[fila][columna]==numero){
@@ -82,7 +81,8 @@ public class Bidimensional {
         
         return coordenada;
     }
-
+    
+    /* 
     public static boolean esPuntoDeSilla(int[][] array, int i, int j) {
         int[] fil= filaDeArrayBiInt(array, i);
         int[] col= columnaDeArrayBiInt(array, j);
