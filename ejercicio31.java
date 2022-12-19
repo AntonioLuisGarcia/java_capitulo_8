@@ -3,8 +3,9 @@
  * pasa como parámetro.
  * 
  * @author Antonio Luis Garcia
+ */
 
-
+ 
  import java.util.Scanner;
  import array.Bidimensional;
  import array.Array;
@@ -32,4 +33,3 @@
     }
  
  }
-  */
