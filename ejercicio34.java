@@ -9,7 +9,7 @@
  * noreste hacia el suroeste.
  * 
  * @author Antonio Luis Garcia
- 
+ */
 
  import java.util.Scanner;
  import array.Bidimensional;
@@ -42,4 +42,3 @@
     }
  
  }
-  */
