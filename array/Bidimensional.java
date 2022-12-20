@@ -91,7 +91,7 @@ public class Bidimensional {
     }
     
     
-    /* 
+
     public static int[] diagonal(int[][] array, int i, int j,String eleccion) {
 
         int numeros=0;
@@ -114,6 +114,5 @@ public class Bidimensional {
         return diagonal;
         
     }
-     */
 
 }
