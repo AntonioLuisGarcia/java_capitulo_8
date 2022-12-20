@@ -3,7 +3,7 @@
  * mínimo en su fila y máximo en su columna.
  * 
  * @author Antonio Luis Garcia
-
+ */
 
  import java.util.Scanner;
  import array.Bidimensional;
@@ -37,5 +37,3 @@
     }
  
  }
-
-  */
