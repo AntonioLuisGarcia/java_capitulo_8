@@ -11,7 +11,7 @@
  * parámetro.
  * 
  * @author Antonio Luis Garcia
- 
+ */ 
 
  import java.util.Scanner;
  import static matematicas.Varias.esPrimo;
@@ -55,4 +55,3 @@
     }
  
  }
-  */
