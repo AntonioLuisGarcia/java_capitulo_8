@@ -8,7 +8,7 @@
  * por pantalla, solo se debe usar print desde el programa principal.
  * 
  * @author Antonio Luis Garcia
-
+ */
 
  import java.util.Scanner;
  import static matematicas.Varias.digitoN;
@@ -40,4 +40,3 @@
     }
  
  }
-  */
