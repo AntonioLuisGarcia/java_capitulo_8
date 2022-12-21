@@ -5,7 +5,7 @@
  * pintar las líneas.
  * 
  * @author Antonio Luis Garcia
- 
+ */
 
  import java.util.Scanner;
  public class ejercicio43 {
@@ -40,4 +40,3 @@
         }
     }
  }
- */
