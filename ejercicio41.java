@@ -8,7 +8,7 @@
  * especificado.
  * 
  * @author Antonio Luis Garcia
- 
+ */ 
 
  import java.util.Scanner;
  public class ejercicio41 {
@@ -36,4 +36,4 @@
         }
     }
  }
- */
+ 
