@@ -5,7 +5,7 @@
  * introduce una altura mayor o igual a 3.
  * 
  * @author Antonio Luis Garcia
- 
+ */
 
  import java.util.Scanner;
  public class ejercicio45 {
@@ -42,4 +42,3 @@
         }
     }
  }
- */
