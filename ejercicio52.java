@@ -7,7 +7,7 @@
  * el 222, el 333 o el 444. Si b = {52, 37}, aleatorioDeArray(b) podría devolver el 52 o el 37. Utiliza la función en un programa de prueba.
  *
  * @author Antonio Luis Garcia
-
+ */
 
 
  import java.util.Scanner;
@@ -35,4 +35,3 @@
             return a[(int)(Math.random()*(a.length+1))];
         }
  }
- */
