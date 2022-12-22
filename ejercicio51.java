@@ -6,7 +6,7 @@
  * primo y/o un capicúa de la forma que muestra el ejemplo.
  * 
  * @author Antonio Luis Garcia
- 
+ */
  
  import java.util.Scanner;
  import array.Array;
@@ -41,4 +41,3 @@
         }
     }
  }
- */
