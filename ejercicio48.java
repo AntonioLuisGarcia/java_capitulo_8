@@ -6,7 +6,7 @@
  * concatena(a, b) devuelve { 8, 9, 0, 1, 2, 3 }.
  * 
  * @author Antonio Luis Garcia
-
+ */
  
 
  import java.util.Scanner;
@@ -58,4 +58,3 @@
     }
     
  }
- */
