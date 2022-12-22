@@ -7,7 +7,7 @@
  * devuelve “8”; si a = { 6, 2, 5, 0, 1 }, convierteArrayEnString(a) devuelve“62501”.
  * 
  * @author Antonio Luis Garcia
- 
+ */
  
 
  import java.util.Scanner;
@@ -44,4 +44,3 @@
         return traduccion;
     }
  }
- */
