@@ -7,7 +7,7 @@
  * longitudes diferentes; por tanto, si se terminan los números de un array se terminan de coger todos los que quedan del otro.
  * 
  * @author Antonio Luis Garcia
-
+ */
  
 
 import java.util.Scanner;
@@ -62,4 +62,3 @@ public class ejercicio50 {
     
  }
  
-*/
