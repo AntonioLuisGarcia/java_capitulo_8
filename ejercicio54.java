@@ -1,55 +1,40 @@
-/*
- *
- * Ejercicio 54
- * 
- * La función ocurrencias devuelve el número de veces que aparece un dígito  dentro de un número (primera función) 
- * o bien el número de veces que aparece un dígito en una serie de números contenidos en un array (segunda función).
- *
- * @author Antonio Luis Garcia
- */
+public class ejercicio54 {
 
-
- import java.util.Scanner;
- import array.Array;
- public class ejercicio54 {
+   public static void main(String[] args) {
+     System.out.println(ocurrencias(8, 4672));
+     System.out.println(ocurrencias(5, 5251535));
+     System.out.println(ocurrencias(2, 123456));
+ 
+     final int[] a = {714, 81, 9, 11};
+     System.out.println(ocurrencias(1, a));
      
-     public static void main(String[] args) {
-         Scanner sc= new Scanner(System.in);
-         System.out.println("1-Array \n2-Numero ");
-         int decision = sc.nextInt();
-         if(decision == 1){
-
-            System.out.println("Di cuantos numeros quieres en el array");
-            int longitud=sc.nextInt();
-            System.out.println("Que valor maximo");
-            int maximo=sc.nextInt();
-            System.out.println("Que valor minimo");
-            int minimo=sc.nextInt();
-            int[] array= Array.generaArrayInt(longitud, minimo, maximo);
-
-         }else if(decision == 2){
-
-            System.out.println("¿Cuanto de grande quieres el numero?");
-            int max = sc.nextInt();
-            int numero = (int)(Math.random()*max+1);
-
-         }
-         
-         sc.close();
-        }
-        
-
-        public static int ocurrencias(int digito, int n){
-
-            
-
-        }
-
-
-        public static int ocurrencias(int digito, int[] a){
-
-
-
-        }
+     final int[] b = {42, 13, 12345, 4};
+     System.out.println(ocurrencias(4, b));
+     
+     final int[] c = {6, 66, 666};
+     System.out.println(ocurrencias(6, c));
+   }
+   
+   public static int ocurrencias(int digito, int n) {
+     int repetido = 0;
+     
+     while (n > 0) {
+       if ((n % 10) == digito) {
+         repetido++;
+       }
+       n = n/10;
+     }
+ 
+     return repetido;
+   }
+   
+   public static int ocurrencias(int digito, int[] a) {
+     int repetido = 0;
+     
+     for (int n : a) {
+       repetido += ocurrencias(digito, n);
+     }
+     
+     return repetido;
+   }
  }
-
