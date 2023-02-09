@@ -7,12 +7,12 @@
  * el código de la función como el código de prueba que la usa. La cabecera de la función es la siguiente:
  * 
  * @author Antonio Luis Garcia
+ */
 
 
 
 import java.util.Scanner;
 import array.Array;
-import array.Bidimensional;
 import matematicas.Varias;
 public class ejercicio53 {
     
@@ -26,8 +26,6 @@ public class ejercicio53 {
         sc.close();
     }
     
-    public static int nEsimo(int[][] n, int posicion)
-
     public static void primoCapicua(int numero){
         if(Varias.esCapicua(numero) && Varias.esPrimo(numero)){
             System.out.println("El "+numero+ " es primo y capicua");
@@ -46,4 +44,3 @@ public class ejercicio53 {
         }
     }
  }
-  */
